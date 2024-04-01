@@ -1,79 +1,66 @@
 @charset "UTF-8";
-h1,h2{
-    
-    text-align: center;
-    font-family:playfair-display; 
-    font-weight: 200
+h1,
+h2 {
+  text-align: center;
+  font-family: playfair-display;
+  font-weight: 200;
 }
 
 body {
-    background-color:#FEF6F7;
-    margin: 0 auto;
+  background-color: #fef6f7;
+  margin: 0 auto;
 }
 /*comment here*/
 img {
-    display: block;
-    margin: 0 auto;
-        margin-top: 30px;
-        border-radius: 40px;
-    padding: 30px;
-    width: 400px;
-     
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+  border-radius: 40px;
+  padding: 30px;
+  width: 400px;
 }
- 	#mobileNav {
-			display: none;
-		}
-	
-	@media only screen and (max-width: 768px) {
-		#mobileNav {
-			display: block;
-		}
-	}
-	
-    .mobileNavBar {
-        background-color: #EDF6F6;
-        position: relative;
-        border: 1px solid;
-        height: 50px;
-        display: flex;
-        justify-content: space-between;
-    }
 
-    #moreInfo {
-       
-        align-self: center;
-        font-size: 1rem;
-    margin-left: 30px;
-        font-family:playfair-display; 
-    font-weight: 200
-    }
+.mobileNavBar {
+  background-color: #edf6f6;
+  position: relative;
+  border: 1px solid;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
 
-    #buttonDiv {
-    
-        height: 75%;
-        font-size: 32px;
-        border: 1px solid;
-        align-self: center;                
-    }
+#moreInfo {
+  align-self: center;
+  font-size: 1rem;
+  margin-left: 30px;
+  font-family: playfair-display;
+  font-weight: 200;
+}
 
-    #button {
-        background-color: white;
-        font-size: 32px;
-        border: 1px solid;
-        border-radius: 4px;
-        cursor: pointer;
-    }
+#buttonDiv {
+  height: 75%;
+  font-size: 32px;
+  border: 1px solid;
+  align-self: center;
+}
 
-    #theLinks {
-        background-color: #f2dce0;
-        display: none;
-        text-align: center;
-        font-family:playfair-display; 
-    
-    }
+#button {
+  background-color: white;
+  font-size: 32px;
+  border: 1px solid;
+  border-radius: 4px;
+  cursor: pointer;
+}
 
-    #theLinks a {
-        display: block;
-        text-decoration: none;
-        color:black;
-    }
+#theLinks {
+  background-color: #f2dce0;
+  display: none;
+  text-align: center;
+  font-family: playfair-display;
+}
+
+#theLinks a {
+  display: block;
+  text-decoration: none;
+  color: black;
+}
